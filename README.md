@@ -17,4 +17,5 @@ Client-Side: The front-end of the website is built using Vue.js, a progressive J
 
 Server-Side: Express.js is utilized on the server-side to handle the backend operations, enabling smooth communication between the client and the server.
 
-<video src="2023-11-15%2021-46-45.mp4" controls title="Title"></video>
+https://github.com/oktaviaqa/Yuniclo---Branded-Things-Website/assets/98966473/e6413979-35c2-48d3-84c0-2573991a8c4e
+
