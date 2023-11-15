@@ -1,0 +1,25 @@
+const { Customer } = require('../models')
+const { verifyToken } = require('../helper/jwt.js')
+
+async function authentication(req, res, next) {
+    try {
+        const { access_token } = req.headers
+        if (!access_token) {
+            throw { name: 'unauthenticated' }
+        }
+        const decode = verifyToken(access_token)
+        const findCust = await Customer.findByPk(decode.id)
+        if (!findCust) {
+            throw { name: 'unauthenticated' }
+        }
+        req.customer = {
+            id: findCust.id,
+            email: findCust.email,
+        }
+        next()
+    } catch (error) {
+        next(error)
+    }
+}
+
+module.exports = authentication

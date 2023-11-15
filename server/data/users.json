@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "password1",
+      "role": "staff",
+      "phoneNumber": "123-456-7890",
+      "address": "123 Main St"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "email": "user2@example.com",
+      "password": "password2",
+      "role": "staff",
+      "phoneNumber": "456-789-1234",
+      "address": "456 Elm St"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "email": "user3@example.com",
+      "password": "password3",
+      "role": "admin",
+      "phoneNumber": "789-123-4567",
+      "address": "789 Oak St"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "email": "user4@example.com",
+      "password": "password4",
+      "role": "staff",
+      "phoneNumber": "987-654-3210",
+      "address": "987 Maple St"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "email": "user5@example.com",
+      "password": "password5",
+      "role": "staff",
+      "phoneNumber": "654-321-9876",
+      "address": "654 Pine St"
+    }
+]

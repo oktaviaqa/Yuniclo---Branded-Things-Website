@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uniclo - Branded Things</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style-prefix.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- headaer -->
+      <div class="header-main">
+        <div class="container">
+          <a href="#" class="header-logo">
+            <h2>Yuniclo</h2>
+          </a>
+
+          <div class="header-search-container">
+            <input
+              type="search"
+              name="search"
+              class="search-field"
+              placeholder="Enter your product name..."
+            />
+
+            <button class="search-btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="header-user-actions">
+            <button class="action-btn">
+              <ion-icon name="person-outline"></ion-icon>
+            </button>
+
+            <button class="action-btn">
+              <ion-icon name="heart-outline"></ion-icon>
+              <span class="count">0</span>
+            </button>
+
+            <button class="action-btn">
+              <ion-icon name="bag-handle-outline"></ion-icon>
+              <span class="count">0</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <div class="slider-container has-scrollbar">
+            <div class="slider-item">
+              <img
+                src="./assets/images/banner-1.jpg"
+                alt="women's latest fashion sale"
+                class="banner-img"
+              />
+              <div class="banner-content">
+                <p class="banner-subtitle">Trending item</p>
+
+                <h2 class="banner-title">New Fashion Dresses</h2>
+              </div>
+            </div>
+            <div class="slider-item">
+              <img
+                src="./assets/images/banner-2.jpg"
+                alt="modern sunglasses"
+                class="banner-img"
+              />
+              <div class="banner-content">
+                <p class="banner-subtitle">Trending accessories</p>
+                <h2 class="banner-title">Modern sunglasses</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- category -->
+      <div class="category">
+        <div class="container">
+          <div class="category-item-container has-scrollbar">
+            <div class="category-item">
+              <div class="category-img-box">
+                <img
+                  src="./assets/images/icons/dress.svg"
+                  alt="dress & frock"
+                  width="30"
+                />
+              </div>
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">Dress & frock</h3>
+
+                  <p class="category-item-amount">(53)</p>
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <div class="category-img-box">
+                <img
+                  src="./assets/images/icons/coat.svg"
+                  alt="winter wear"
+                  width="30"
+                />
+              </div>
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">Winter wear</h3>
+
+                  <p class="category-item-amount">(58)</p>
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <div class="category-img-box">
+                <img
+                  src="./assets/images/icons/glasses.svg"
+                  alt="glasses & lens"
+                  width="30"
+                />
+              </div>
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">Glasses & lens</h3>
+
+                  <p class="category-item-amount">(68)</p>
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <div class="category-img-box">
+                <img
+                  src="./assets/images/icons/shorts.svg"
+                  alt="shorts & jeans"
+                  width="30"
+                />
+              </div>
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">Shorts & jeans</h3>
+
+                  <p class="category-item-amount">(84)</p>
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <div class="category-img-box">
+                <img
+                  src="./assets/images/icons/tee.svg"
+                  alt="t-shirts"
+                  width="30"
+                />
+              </div>
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">T-shirts</h3>
+
+                  <p class="category-item-amount">(35)</p>
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <div class="category-img-box">
+                <img
+                  src="./assets/images/icons/jacket.svg"
+                  alt="jacket"
+                  width="30"
+                />
+              </div>
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">Jacket</h3>
+
+                  <p class="category-item-amount">(16)</p>
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <div class="category-img-box">
+                <img
+                  src="./assets/images/icons/watch.svg"
+                  alt="watch"
+                  width="30"
+                />
+              </div>
+
+              <div class="category-content-box">
+                <div class="category-content-flex">
+                  <h3 class="category-item-title">Watch</h3>
+
+                  <p class="category-item-amount">(27)</p>
+                </div>
+
+                <a href="#" class="category-btn">Show all</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="title text-align-center">All Products</h2>
+      <div class="product-main">
+        <div class="product-grid">
+          <!-- card item -->
+          <div class="showcase-banner">
+            <div class="card">
+              <div class="showcase-banner">
+                <img
+                  class="product-img default"
+                  src="./assets/images/products/jacket-1.jpg"
+                  alt="Card image cap"
+                />
+                <div class="showcase-actions">
+                  <button class="btn-action">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+              <div class="card-body" style="padding: 15px 20px 0">
+                <!-- Title -->
+                <div class="showcase-category">jacket</div>
+                <!-- Text -->
+                <h3 class="showcase-title">Mens Winter Leathers Jackets</h3>
+                <div class="showcase-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="price-box">
+                  <p class="price">$48.00</p>
+                  <del>$75.00</del>
+                </div>
+                <!-- Button -->
+                <a href="#">
+                  <h3 class="showcase-button">Details</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- card item -->
+          <div class="showcase-banner">
+            <div class="card">
+              <div class="showcase-banner">
+                <img
+                  class="product-img default"
+                  src="./assets/images/products/jacket-1.jpg"
+                  alt="Card image cap"
+                />
+                <div class="showcase-actions">
+                  <button class="btn-action">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+              <div class="card-body" style="padding: 15px 20px 0">
+                <!-- Title -->
+                <div class="showcase-category">jacket</div>
+                <!-- Text -->
+                <h3 class="showcase-title">Mens Winter Leathers Jackets</h3>
+                <div class="showcase-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="price-box">
+                  <p class="price">$48.00</p>
+                  <del>$75.00</del>
+                </div>
+                <!-- Button -->
+                <a href="#">
+                  <h3 class="showcase-button">Details</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- card item -->
+          <div class="showcase-banner">
+            <div class="card">
+              <div class="showcase-banner">
+                <img
+                  class="product-img default"
+                  src="./assets/images/products/jacket-1.jpg"
+                  alt="Card image cap"
+                />
+                <div class="showcase-actions">
+                  <button class="btn-action">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+              <div class="card-body" style="padding: 15px 20px 0">
+                <!-- Title -->
+                <div class="showcase-category">jacket</div>
+                <!-- Text -->
+                <h3 class="showcase-title">Mens Winter Leathers Jackets</h3>
+                <div class="showcase-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="price-box">
+                  <p class="price">$48.00</p>
+                  <del>$75.00</del>
+                </div>
+                <!-- Button -->
+                <a href="#">
+                  <h3 class="showcase-button">Details</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- card item -->
+          <div class="showcase-banner">
+            <div class="card">
+              <div class="showcase-banner">
+                <img
+                  class="product-img default"
+                  src="./assets/images/products/jacket-1.jpg"
+                  alt="Card image cap"
+                />
+                <div class="showcase-actions">
+                  <button class="btn-action">
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+              <div class="card-body" style="padding: 15px 20px 0">
+                <!-- Title -->
+                <div class="showcase-category">jacket</div>
+                <!-- Text -->
+                <h3 class="showcase-title">Mens Winter Leathers Jackets</h3>
+                <div class="showcase-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="price-box">
+                  <p class="price">$48.00</p>
+                  <del>$75.00</del>
+                </div>
+                <!-- Button -->
+                <a href="#">
+                  <h3 class="showcase-button">Details</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+          <!-- Login -->
+          <div class="modal" data-modal>
+            <div class="modal-close-overlay" data-modal-overlay></div>
+      
+            <div class="modal-content">
+              <button class="modal-close-btn" data-modal-close>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+      
+              <div class="newsletter-img">
+                <img
+                  src="./assets/images/newsletter.png"
+                  alt="subscribe newsletter"
+                  width="400"
+                  height="400"
+                />
+              </div>
+      
+              <div class="newsletter">
+                <form action="#">
+                  <div class="newsletter-header">
+                    <h3 class="newsletter-title">Sign In.</h3>
+      
+                    <p class="newsletter-desc">
+                      Sign in the <b>Yuniclo</b> to get latest products and discount
+                      update.
+                    </p>
+                  </div>
+      
+                  <input
+                    type="email"
+                    name="email"
+                    class="email-field"
+                    placeholder="Email Address"
+                    required
+                  />
+      
+                  <input
+                    type="password"
+                    name="password"
+                    class="email-field"
+                    placeholder="Passwr"
+                    required
+                  />
+                  <a class="newsletter-register" href="">haven't an account? Register here</a>
+                  <button type="submit" class="btn-newsletter">Sign In</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+      
+    </main>
+
+  
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
